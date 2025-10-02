@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.pyc
+<<<<<<< HEAD
 *.pkl
 *.pt
 *.log
@@ -17,3 +18,43 @@ venv/
 
 # OS
 .DS_Store
+=======
+*.pyo
+*.pyd
+.env
+.venv
+.env.*
+
+# Data and databases
+data/chroma_db/
+data/mimic/
+data/processed/
+data/synthea/
+tools/data/
+*.sqlite3
+*.db
+*.csv
+*.json
+
+# Figures and results (often regenerated)
+figures/
+tools/figures/
+results/
+tools/results/
+
+# Logs
+logs/
+*.log
+
+# Big Synthea outputs
+synthea-master-branch-latest/output/
+
+# Node/JS (if any)
+node_modules/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+>>>>>>> ee94d9f (Initial Commit)
